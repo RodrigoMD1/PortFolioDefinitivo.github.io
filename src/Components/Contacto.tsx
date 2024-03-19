@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import user_emailjs from '@emailjs/browser'
 import { useForm, SubmitHandler } from 'react-hook-form'
@@ -51,6 +51,7 @@ export const Contacto = () => {
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const onSubmit: SubmitHandler<z.infer<typeof formSchema>> = (data) => {
+        console.log(value, setValue)
         console.log(data);
 
 

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Skills } from './Skills'
 import { Proyectos } from './Proyectos'
 import { About } from './About'
