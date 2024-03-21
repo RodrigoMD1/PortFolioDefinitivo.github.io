@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import rlogo from '/Img/logosSkils/iconoR01.png'
 
 
 /**
@@ -49,14 +50,14 @@ export const Header = () => {
               <li className="">
                 <a>Proyectos</a>
                 <ul className="p-2 bg-slate-400 dark:bg-slate-600 rounded-md ">
-                <li className=""><NavLink to="/ProyectoFront">Proyectos Front end</NavLink></li>
-                <li className=""><NavLink to="/ProyectoBack">Proyectos Back end</NavLink></li>
+                  <li className=""><NavLink to="/ProyectoFront">Proyectos Front end</NavLink></li>
+                  <li className=""><NavLink to="/ProyectoBack">Proyectos Back end</NavLink></li>
                 </ul>
               </li>
               <li className=""><NavLink to="/contacto">Contacto</NavLink></li>
             </ul>
           </div>
-          <img  className ="lg:m-8 max-sm:m-20"src="src\Img\logosSkils\iconoR01.png"></img>
+          <img className="lg:m-8 max-sm:m-20" src={rlogo}></img>
         </div>
 
 
@@ -67,8 +68,8 @@ export const Header = () => {
               <details>
                 <summary>Proyectos</summary>
                 <ul className="p-2 bg-slate-300  dark:bg-slate-700">
-                <li className=""><NavLink to="/ProyectoFront">Proyectos Front end</NavLink></li>
-                <li className=""><NavLink to="/ProyectoBack">Proyectos Back end</NavLink></li>
+                  <li className=""><NavLink to="/ProyectoFront">Proyectos Front end</NavLink></li>
+                  <li className=""><NavLink to="/ProyectoBack">Proyectos Back end</NavLink></li>
                 </ul>
               </details>
             </li>

@@ -1,4 +1,4 @@
-
+import codigo02 from '/Img/proyectos-img/codigo-img02.jpg'
 
 export const About = () => {
     return (
@@ -19,7 +19,7 @@ export const About = () => {
                 </div>
                 <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
                     <img
-                        src="src/img/Proyectos-img/codigo-img02.jpg"
+                        src={codigo02}
                         alt=""
                         className="w-full"
                     />

@@ -1,58 +1,69 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+import reactjslogo from '../../public/Img/logosSkils/reactjs.png'
+import mongodblogo from '../../public/Img/logosSkils/mongologo.png'
+import tslogo from '../../public/Img/logosSkils/typescript logo.png'
+import gitlogo from '../../public/Img/logosSkils/gitlogo.png'
+import nodejslogo from '../../public/Img/logosSkils/nodejs.png'
+import jslogo from '../../public/Img/logosSkils/js.png'
+import csslogo from '../../public/Img/logosSkils/css.png'
+import htmlogo from '../../public/Img/logosSkils/html.png'
+import tailwindslogo from '../../public/Img/logosSkils/tailwind.png'
+
+
 
 
 
 const team = [
     {
-        avatar: "src/img/logosSkils/React.svg.png",
+        avatar: reactjslogo,
         name: "React JS",
 
     },
     {
-        avatar: "src/img/logosSkils/1012822_code_development_logo_mongodb_programming_icon.png",
+        avatar: mongodblogo,
         name: "MongoDB",
 
     },
     {
-        avatar: " src/img/logosSkils/typescript logo.png",
+        avatar: tslogo,
         name: "TypeScript",
 
     },
     {
-        avatar: "src/img/logosSkils/git logo.png",
+        avatar: gitlogo,
         name: "GIT",
 
     },
     {
-        avatar: "src/img/logosSkils/nodejs.png",
+        avatar: nodejslogo,
         name: "NodeJS",
 
     },
     {
-        avatar: "src/img/logosSkils/js.png",
+        avatar: jslogo,
         name: "Javascript",
 
     },
     {
-        avatar: "src/img/logosSkils/css.png",
+        avatar: csslogo,
         name: "CSS",
 
     },
     {
-        avatar: "src/img/logosSkils/html.png",
+        avatar: htmlogo,
         name: "HTML",
 
     },
     {
-        avatar: "src/img/logosSkils/9073628_tailwind_icon.png",
+        avatar: tailwindslogo,
         name: "TailwindCSS",
 
     },
 ]
 
 export const Skills = () => {
-  return (
-    <section className="py-14">
+    return (
+        <section className="py-14">
 
             <div className="max-w-screen-xl mx-auto px-4 text-center md:px-8 ">
 
@@ -86,5 +97,5 @@ export const Skills = () => {
                 </div>
             </div>
         </section>
-  )
+    )
 }

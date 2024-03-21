@@ -6,6 +6,7 @@ import { useForm, SubmitHandler } from 'react-hook-form'
 import Swal from 'sweetalert2'
 import * as z from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
+import codigoimg03 from '/Img/proyectos-img/coding03.jpg'
 
 
 // esta parte valida la informacion que el usuario pone ejemplo verifica que sea string lo que uno escribio
@@ -117,7 +118,7 @@ export const Contacto = () => {
         <main className="flex overflow-hidden bg-gray-900 mt-20 ">
 
             <div className="flex-1 hidden lg:block m-9">
-                <img src="src/img/Proyectos-img/coding03.jpg" className="w-full h-screen object-cover" />
+                <img src= {codigoimg03} className="w-full h-screen object-cover" />
             </div>
 
             <div className="py-12 flex-1 lg:flex lg:justify-center lg:h-screen lg:overflow-auto">
@@ -223,8 +224,6 @@ export const Contacto = () => {
                         </div>
 
 
-
-
                         <button
 
                             className="w-full px-4 py-2 text-white sm:text-xl font-medium bg-blue-400 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
@@ -233,9 +232,6 @@ export const Contacto = () => {
                         >
                             Enviar
                         </button>
-
-
-
 
 
 

@@ -1,34 +1,39 @@
+import pasteleria01 from '/Img/proyectos-img/pasteleria01.jpeg'
+import tiendazapatillasimg from '/Img/proyectos-img/Zapatillastienda01.jpeg'
+import codigoimg from '/Img/proyectos-img/codigo-img02.jpg'
 
-
+/**
+ *  TODO:   conseguir captura de pantalla de los otros proyectos 
+ */
 
 const team = [
   {
-      avatar: "src/img/Proyectos-img/pasteleria01.jpeg",
+      avatar: pasteleria01,
       name: "Tienda web de pasteleria",
       title: "Tecnologias usadas: html,css,js,react"
   },
   {
-      avatar: "src/img/Proyectos-img/Zapatillastienda01.jpeg",
+      avatar: tiendazapatillasimg,
       name: "Tienda web de zapatillas",
       title: "Tecnologias usadas: html,css,js,react"
   },
   {
-      avatar: "src/img/Proyectos-img/codigo-img.jpg",
+      avatar: codigoimg,
       name: "LandingPage .....",
       title: "Tecnologias usadas: html,css,js,react"
   },
   {
-      avatar: "src/img/Proyectos-img/codigo-img02.jpg",
+      avatar: codigoimg,
       name: "Blog Completo ",
       title: "Tecnologias usadas: html,css,js,react"
   },
   {
-      avatar: "src/img/Proyectos-img/codigo-img.jpg",
+      avatar: codigoimg,
       name: "ApiRest ",
       title: "NestJs"
   },
   {
-      avatar: "src/img/Proyectos-img/codigo-img02.jpg",
+      avatar: codigoimg,
       name: "Red Social Completa",
       title: "Tecnologias usadas: html,css,js,react,MongoDB,NodeJs,"
   },

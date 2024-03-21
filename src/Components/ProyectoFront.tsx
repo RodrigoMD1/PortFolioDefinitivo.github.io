@@ -1,19 +1,20 @@
-
-
+import pasteleria02img from '/Img/proyectos-img/pasteleria02.jpeg'
+import zapatillasvanguardia from '/Img/proyectos-img/Zapatillastienda03.jpeg'
+import codigoimg from '/Img/proyectos-img/codigo-img02.jpg'
 
 const team = [
   {
-    avatar: "src/img/Proyectos-img/pasteleria02.jpeg",
+    avatar: pasteleria02img,
     name: "Rincon Gastronomico ",
     title: "Tecnologias usadas: html,css,js,React,Astro"
   },
   {
-    avatar: "src/img/Proyectos-img/Zapatillastienda03.jpeg",
+    avatar: zapatillasvanguardia,
     name: "Zapatillas de Vanguardia",
     title: "Tecnologias usadas: html,css,js,React,Astro,"
   },
   {
-    avatar: "src/img/Proyectos-img/codigo-img.jpg",
+    avatar: codigoimg,
     name: "LandingPage .......",
     title: "Tecnologias usadas: html,css,js,react"
   },
