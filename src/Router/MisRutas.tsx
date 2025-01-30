@@ -20,8 +20,6 @@ export const MisRutas = () => {
             <Header />
 
 
-
-
             {/* contenido central */}
             <Routes>
 
@@ -38,8 +36,6 @@ export const MisRutas = () => {
                 )} />
 
             </Routes>
-
-
 
             {/* Footer*/}
 

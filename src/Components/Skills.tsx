@@ -63,23 +63,23 @@ const team = [
 
 export const Skills = () => {
     return (
-        <section className="py-14">
+        <section className="py-14 ">
 
-            <div className="max-w-screen-xl mx-auto px-4 text-center md:px-8 ">
+            <div className="max-w-screen-xl px-4 mx-auto text-center md:px-8 ">
 
                 <div className="max-w-xl mx-auto">
 
-                    <h3 className="bg-gradient-to-r from-cyan-500 to-sky-400 bg-clip-text text-transparent text-3xl font-semibold sm:text-6xl  ">
+                    <h3 className="text-3xl font-semibold text-transparent bg-gradient-to-r from-cyan-500 to-sky-400 bg-clip-text sm:text-6xl ">
                         SKILLS
                     </h3>
 
                 </div>
                 <div className="mt-12">
-                    <ul className="grid gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5   ">
+                    <ul className="grid gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 ">
                         {
                             team.map((item, idx) => (
                                 <li key={idx}>
-                                    <div className="w-20 h-20 mx-auto  ">
+                                    <div className="w-20 h-20 mx-auto ">
                                         <img
                                             src={item.avatar}
                                             className="w-full h-full duration-500 hover:scale-110 "
@@ -87,7 +87,7 @@ export const Skills = () => {
                                         />
                                     </div>
                                     <div className="mt-2 ">
-                                        <h4 className="text-gray-600 font-semibold sm:text-lg dark:text-gray-100  ">{item.name}</h4>
+                                        <h4 className="font-semibold text-gray-600 sm:text-lg dark:text-gray-100 ">{item.name}</h4>
 
                                     </div>
                                 </li>

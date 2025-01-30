@@ -115,16 +115,16 @@ export const Contacto = () => {
 
 
     return (
-        <main className="flex overflow-hidden bg-gray-900 mt-20 ">
+        <main className="flex mt-20 overflow-hidden bg-gray-900 ">
 
             <div className="flex-1 hidden lg:block m-9">
-                <img src= {codigoimg03} className="w-full h-screen object-cover" />
+                <img src= {codigoimg03} className="object-cover w-full h-screen" />
             </div>
 
-            <div className="py-12 flex-1 lg:flex lg:justify-center lg:h-screen lg:overflow-auto">
-                <div className="max-w-lg flex-1 mx-auto px-4 text-white">
+            <div className="flex-1 py-12 lg:flex lg:justify-center lg:h-screen lg:overflow-auto">
+                <div className="flex-1 max-w-lg px-4 mx-auto text-white">
                     <div>
-                        <h3 className="text-white text-4xl font-semibold sm:text-5xl">
+                        <h3 className="text-4xl font-semibold text-white sm:text-5xl">
                             Ponete en contacto
                         </h3>
                         <p className="mt-3 sm:text-xl">
@@ -134,7 +134,7 @@ export const Contacto = () => {
 
 
                         <div>
-                            <ul className="mt-6 flex flex-wrap gap-x-10 gap-y-6 items-center">
+                            <ul className="flex flex-wrap items-center mt-6 gap-x-10 gap-y-6">
                                 {
                                     contactMethods.map((item, idx) => (
                                         <li key={idx} className="flex items-center gap-x-3 sm:text-xl">
@@ -147,8 +147,8 @@ export const Contacto = () => {
                                 }
                             </ul>
 
-                            <div className='iconos  '>
-                                <ul className='me-auto flex  gap-3 mt-6 ml-9'>
+                            <div className='iconos '>
+                                <ul className='flex gap-3 mt-6 me-auto ml-9'>
 
 
                                     <NavLink to="https://twitter.com/Rodrigoduvivier" target="_blank" className="inline-block">
@@ -179,7 +179,7 @@ export const Contacto = () => {
                         ref={form}
                         onSubmit={handleSubmit(onSubmit)}
 
-                        className="space-y-5 mt-12 lg:pb-12"
+                        className="mt-12 space-y-5 lg:pb-12"
                     >
                         <div>
                             <label className="font-medium sm:text-xl">
@@ -191,7 +191,7 @@ export const Contacto = () => {
                                 placeholder='Nombre y apellido '
                                 {...register("user_name", { required: true, minLength: 2 })}
 
-                                className="w-full mt-2 px-3 py-2 text-white bg-transparent  border focus:border-gray-800 shadow-sm rounded-lg"
+                                className="w-full px-3 py-2 mt-2 text-white bg-transparent border rounded-lg shadow-sm focus:border-gray-800"
                             />
 
                         </div>
@@ -204,7 +204,7 @@ export const Contacto = () => {
                                 type='email'
                                 placeholder='Email'
                                 {...register("user_email", { required: true, minLength: 2 })}
-                                className="w-full mt-2 px-3 py-2 text-white bg-transparent  border focus:border-gray-800 shadow-sm rounded-lg"
+                                className="w-full px-3 py-2 mt-2 text-white bg-transparent border rounded-lg shadow-sm focus:border-gray-800"
                             />
 
 
@@ -220,13 +220,13 @@ export const Contacto = () => {
                             <textarea
                                 placeholder='Escribi tus consultas o dudas'
                                 {...register("message", { required: true, minLength: 2 })}
-                                className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg" name='message'></textarea>
+                                className="w-full px-3 py-2 mt-2 bg-transparent border rounded-lg shadow-sm outline-none appearance-none resize-none h-36 focus:border-gray-800" name='message'></textarea>
                         </div>
 
 
                         <button
 
-                            className="w-full px-4 py-2 text-white sm:text-xl font-medium bg-blue-400 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
+                            className="w-full px-4 py-2 font-medium text-white duration-150 bg-blue-400 rounded-lg sm:text-xl hover:bg-gray-700 active:bg-gray-900"
                             type="submit"
                             value='Send'
                         >
