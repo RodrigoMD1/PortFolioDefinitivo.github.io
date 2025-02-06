@@ -7,9 +7,10 @@ import nodejslogo from '../../public/Img/logosSkils/nodejs.png'
 import jslogo from '../../public/Img/logosSkils/js.png'
 import csslogo from '../../public/Img/logosSkils/css.png'
 import htmlogo from '../../public/Img/logosSkils/html.png'
-import tailwindslogo from '../../public/Img/logosSkils/tailwind.png'
-
-
+import tailwindslogo from '../../public/Img/logosSkils/TailwindCSSSS.png'
+import Nestjs from '../../public/Img/logosSkils/Nestjs.png'
+import Go from '../../public/Img/logosSkils/Go.png'
+import Docker from '../../public/Img/logosSkils/Docker.png' 
 
 
 
@@ -20,8 +21,13 @@ const team = [
 
     },
     {
-        avatar: mongodblogo,
-        name: "MongoDB",
+        avatar: Nestjs,
+        name: "NestJS",
+
+    },
+    {
+        avatar: Go,
+        name: "GoLang",
 
     },
     {
@@ -29,6 +35,12 @@ const team = [
         name: "TypeScript",
 
     },
+    {
+        avatar: mongodblogo,
+        name: "MongoDB",
+
+    },
+   
     {
         avatar: gitlogo,
         name: "GIT",
@@ -57,6 +69,11 @@ const team = [
     {
         avatar: tailwindslogo,
         name: "TailwindCSS",
+
+    },
+    {
+        avatar: Docker,
+        name: "Docker",
 
     },
 ]
